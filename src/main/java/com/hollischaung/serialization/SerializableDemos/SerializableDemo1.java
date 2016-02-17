@@ -6,6 +6,7 @@ import org.apache.commons.io.IOUtils;
 import java.io.*;
 /**
  * Created by hollis on 16/2/17.
+ * SerializableDemo1 结合SerializableDemo2说明 一个类要想被序列化必须实现Serializable接口
  */
 public class SerializableDemo1 {
 

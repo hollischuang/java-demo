@@ -2,6 +2,7 @@ package com.hollischaung.serialization.SerializableDemos;
 import java.io.*;
 /**
  * Created by hollis on 16/2/17.
+ * SerializableDemo1 结合SerializableDemo2 说明 一个类要想被序列化必须实现Serializable接口
  * 该示例试图对一个不支持序列化的类进行序列化及反序列化
  */
 public class SerializableDemo2 {

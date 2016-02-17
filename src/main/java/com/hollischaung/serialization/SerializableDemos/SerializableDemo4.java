@@ -4,7 +4,7 @@ import java.io.*;
 
 /**
  * Created by hollis on 16/2/17.
- * 该示例试图对一个不支持序列化的类进行序列化及反序列化
+ * SerializableDemo3 和SerializableDemo4说明如果要序列化的类有父类，要想同时将在父类中定义过的变量持久化下来，那么父类也应该集成Serializable接口。
  */
 public class SerializableDemo4 {
 
