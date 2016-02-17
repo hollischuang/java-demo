@@ -1,4 +1,4 @@
-package com.hollischaung.serialization;
+package com.hollischaung.serialization.SerializableDemos;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;

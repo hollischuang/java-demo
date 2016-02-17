@@ -1,4 +1,4 @@
-package com.hollischaung.serialization;
+package com.hollischaung.serialization.SerializableDemos;
 import java.io.*;
 /**
  * Created by hollis on 16/2/17.
@@ -23,10 +23,10 @@ public class SerializableDemo2 {
     }
 }
 
-//Exception in thread "main" java.io.NotSerializableException: com.hollischaung.serialization.User2
+//Exception in thread "main" java.io.NotSerializableException: com.hollischaung.SerializableDemos.serialization.User2
 //at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1183)
 //        at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
-//        at com.hollischaung.serialization.SerializableDemo2.main(SerializableDemo2.java:19)
+//        at com.hollischaung.SerializableDemos.serialization.SerializableDemo2.main(SerializableDemo2.java:19)
 //        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 //        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 //        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

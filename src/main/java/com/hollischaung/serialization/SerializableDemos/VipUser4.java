@@ -1,12 +1,12 @@
-package com.hollischaung.serialization;
+package com.hollischaung.serialization.SerializableDemos;
 
 import java.io.Serializable;
 
 /**
  * Created by hollis on 16/2/17.
- * 继承User3类，实现Serializable接口
+ * 继承User4类，实现Serializable接口
  */
-public class VipUser3 extends User3 implements Serializable {
+public class VipUser4 extends User4 implements Serializable {
 
     private String nickName;
 
@@ -20,7 +20,7 @@ public class VipUser3 extends User3 implements Serializable {
 
     @Override
     public String toString() {
-        return "VipUser3{" +
+        return "VipUser4{" +
                 "userName='" + getUsername() + '\'' +
                 "password='" + getPassword() + '\'' +
                 "nickName='" + nickName + '\'' +

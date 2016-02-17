@@ -1,12 +1,10 @@
-package com.hollischaung.serialization;
-
-import java.io.Serializable;
+package com.hollischaung.serialization.SerializableDemos;
 
 /**
  * Created by hollis on 16/2/17.
- * 实现Serializable接口
+ * 不实现Serializable接口
  */
-public class User1 implements Serializable {
+public class User2 {
 
     private String name;
     private int age;
@@ -29,7 +27,7 @@ public class User1 implements Serializable {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "User2{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

@@ -1,12 +1,10 @@
-package com.hollischaung.serialization;
-
-import java.io.Serializable;
+package com.hollischaung.serialization.SerializableDemos;
 
 /**
  * Created by hollis on 16/2/17.
- * 实现Serializable接口
+ * 不实现Serializable接口
  */
-public class User4 implements Serializable{
+public class User3{
 
     private String username;
     private String password;
