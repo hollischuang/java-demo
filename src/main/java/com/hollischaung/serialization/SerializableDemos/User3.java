@@ -5,7 +5,6 @@ package com.hollischaung.serialization.SerializableDemos;
  * 不实现Serializable接口
  */
 public class User3{
-
     private String username;
     private String password;
 

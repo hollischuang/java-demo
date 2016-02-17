@@ -7,7 +7,7 @@ import java.io.Serializable;
  * 实现Serializable接口
  */
 public class User4 implements Serializable{
-
+    private static final long serialVersionUID = 1L;
     private String username;
     private String password;
 

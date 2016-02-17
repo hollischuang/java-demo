@@ -7,7 +7,7 @@ import java.io.Serializable;
  * 继承User3类，实现Serializable接口
  */
 public class VipUser3 extends User3 implements Serializable {
-
+    private static final long serialVersionUID = 1L;
     private String nickName;
 
     public String getNickName() {

@@ -5,7 +5,6 @@ package com.hollischaung.serialization.SerializableDemos;
  * 不实现Serializable接口
  */
 public class User2 {
-
     private String name;
     private int age;
 

@@ -11,7 +11,7 @@ import java.io.ObjectOutput;
  * 该类不提供无参数的构造函数
  */
 public class User3 implements Externalizable {
-
+    private static final long serialVersionUID = 1L;
     private String name;
     private int age;
 
